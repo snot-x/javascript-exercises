@@ -8,9 +8,9 @@ describe('joinStrings-example', () => {
     expect(values.thisYear).toEqual(1965);
   });
   test('firstName is Carlos', () => {
-    expect(values.firstName).toEqual('Carlos');
+    expect(values.firstName).toEqual("Carlos");
   });
-  test('lastName is Carlos', () => {
+  test('lastName is Stevenson', () => {
     expect(values.lastName).toEqual('Stevenson');
   });
   test('greeting is put together correctly', () => {
